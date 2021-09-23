@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/erk/pico/EEPROM/build/CMakeFiles/ELF2UF2Build
+/home/erk/pico/EEPROM/build/CMakeFiles/ELF2UF2Build.rule
+/home/erk/pico/EEPROM/build/CMakeFiles/ELF2UF2Build-complete.rule
+/home/erk/pico/EEPROM/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/erk/pico/EEPROM/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/erk/pico/EEPROM/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/erk/pico/EEPROM/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/erk/pico/EEPROM/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/erk/pico/EEPROM/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/erk/pico/EEPROM/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
