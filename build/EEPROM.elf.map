@@ -64,8 +64,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/EEPROM.dir/EEPROM.c.obj
- .text.addr_shiftOut
-                0x0000000000000000       0xa4 CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .text.data_shiftOut
                 0x0000000000000000       0x70 CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .text.pulsePin_us
@@ -74,13 +72,9 @@ Discarded input sections
                 0x0000000000000000        0x3 CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .text.toBin    0x0000000000000000       0x28 CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .text.toHex    0x0000000000000000       0xc0 CMakeFiles/EEPROM.dir/EEPROM.c.obj
- .rodata.shiftIn.str1.4
-                0x0000000000000000       0x37 CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .text.shiftIn  0x0000000000000000      0x14c CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .text.setDataDir
                 0x0000000000000000       0x20 CMakeFiles/EEPROM.dir/EEPROM.c.obj
- .text.writeBits_16
-                0x0000000000000000       0xec CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .text.delay_64ns
                 0x0000000000000000       0x14 CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .text.delay_128ns
@@ -226,12 +220,6 @@ Discarded input sections
                 0x0000000000000000       0x84 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_dump
                 0x0000000000000000       0x34 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
- .text.sleep_until
-                0x0000000000000000       0xac CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
- .text.sleep_us
-                0x0000000000000000       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
- .text.sleep_ms
-                0x0000000000000000       0x38 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.nil_time
                 0x0000000000000000        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -259,8 +247,6 @@ Discarded input sections
                 0x0000000000000000       0x68 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.busy_wait_ms
                 0x0000000000000000       0x88 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .text.busy_wait_until
-                0x0000000000000000       0x20 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -1066,9 +1052,9 @@ Discarded input sections
                 0x0000000000000000       0x70 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_range_program
                 0x0000000000000000       0x70 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccVcYYqU.o
- .data          0x0000000000000000        0x0 /tmp/ccVcYYqU.o
- .bss           0x0000000000000000        0x0 /tmp/ccVcYYqU.o
+ .text          0x0000000000000000        0x0 /tmp/cc75jAoS.o
+ .data          0x0000000000000000        0x0 /tmp/cc75jAoS.o
+ .bss           0x0000000000000000        0x0 /tmp/cc75jAoS.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1214,11 +1200,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccVcYYqU.o
+ .boot2         0x0000000010000000      0x100 /tmp/cc75jAoS.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x7858
+.text           0x0000000010000100     0x7ff0
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1281,607 +1267,625 @@ LOAD /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text.frame_dummy
                 0x00000000100002c4       0x20 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crtbegin.o
+ .text.addr_shiftOut
+                0x00000000100002e4       0xa4 CMakeFiles/EEPROM.dir/EEPROM.c.obj
+                0x00000000100002e4                addr_shiftOut
+ .text.writeBits_16
+                0x0000000010000388       0xec CMakeFiles/EEPROM.dir/EEPROM.c.obj
+                0x0000000010000388                writeBits_16
  .text.InitGPIO
-                0x00000000100002e4       0xd4 CMakeFiles/EEPROM.dir/EEPROM.c.obj
-                0x00000000100002e4                InitGPIO
+                0x0000000010000474       0xd4 CMakeFiles/EEPROM.dir/EEPROM.c.obj
+                0x0000000010000474                InitGPIO
  .text.startup.main
-                0x00000000100003b8      0x25c CMakeFiles/EEPROM.dir/EEPROM.c.obj
-                0x00000000100003b8                main
+                0x0000000010000548      0x730 CMakeFiles/EEPROM.dir/EEPROM.c.obj
+                0x0000000010000548                main
  .text.gpio_set_function
-                0x0000000010000614       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000614                gpio_set_function
+                0x0000000010000c78       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000c78                gpio_set_function
  .text.gpio_init
-                0x0000000010000644       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000644                gpio_init
+                0x0000000010000ca8       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000ca8                gpio_init
  .text.hw_claim_or_assert
-                0x0000000010000680       0x44 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000680                hw_claim_or_assert
+                0x0000000010000ce4       0x44 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000ce4                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x00000000100006c4       0x9c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100006c4                hw_claim_unused_from_range
+                0x0000000010000d28       0x9c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000d28                hw_claim_unused_from_range
  .text.running_on_fpga
-                0x0000000010000760       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010000760                running_on_fpga
+                0x0000000010000dc4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000dc4                running_on_fpga
  .text.spin_locks_reset
-                0x0000000010000770       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000770                spin_locks_reset
+                0x0000000010000dd4       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000dd4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x000000001000078c       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x000000001000078c                next_striped_spin_lock_num
+                0x0000000010000df0       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000df0                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x00000000100007a4       0x24 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100007a4                spin_lock_claim_unused
+                0x0000000010000e08       0x24 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000e08                spin_lock_claim_unused
  .text.uart_init
-                0x00000000100007c8       0xe0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x00000000100007c8                uart_init
+                0x0000000010000e2c       0xe0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000010000e2c                uart_init
  .text.timer_pool_entry_comparator
-                0x00000000100008a8       0x34 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100008a8                timer_pool_entry_comparator
+                0x0000000010000f0c       0x34 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000f0c                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x00000000100008dc       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000f40       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x000000001000090c       0xfc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000f70       0xfc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010000a08      0x1c8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000106c      0x1c8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x0000000010000bd0      0x114 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001234      0x114 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000ce4       0x64 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ce4                alarm_pool_init_default
+                0x0000000010001348       0x64 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001348                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010000d48        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000d48                alarm_pool_get_default
+                0x00000000100013ac        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100013ac                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010000d50      0x198 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000d50                alarm_pool_add_alarm_at
+                0x00000000100013b4      0x198 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100013b4                alarm_pool_add_alarm_at
+ .text.sleep_until
+                0x000000001000154c       0xac CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000154c                sleep_until
+ .text.sleep_us
+                0x00000000100015f8       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100015f8                sleep_us
+ .text.sleep_ms
+                0x0000000010001628       0x38 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001628                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x0000000010000ee8       0xac CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ee8                best_effort_wfe_or_timeout
+                0x0000000010001660       0xac CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001660                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000010000f94       0xb8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000170c       0xb8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x000000001000104c       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000104c                hardware_alarm_claim
+                0x00000000100017c4       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100017c4                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010001064       0x14 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001064                time_us_64
+                0x00000000100017dc       0x14 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100017dc                time_us_64
  .text.busy_wait_us
-                0x0000000010001078       0x54 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001078                busy_wait_us
+                0x00000000100017f0       0x54 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100017f0                busy_wait_us
+ .text.busy_wait_until
+                0x0000000010001844       0x20 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001844                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x00000000100010cc       0x8c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100010cc                hardware_alarm_set_callback
+                0x0000000010001864       0x8c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001864                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010001158       0xe0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001158                hardware_alarm_set_target
+                0x00000000100018f0       0xe0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100018f0                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010001238       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001238                hardware_alarm_cancel
+                0x00000000100019d0       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100019d0                hardware_alarm_cancel
  .text.lock_init
-                0x0000000010001274       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010001274                lock_init
+                0x0000000010001a0c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010001a0c                lock_init
  .text.mutex_init
-                0x0000000010001284       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001284                mutex_init
+                0x0000000010001a1c       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010001a1c                mutex_init
  .text.recursive_mutex_init
-                0x00000000100012a0       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000100012a0                recursive_mutex_init
+                0x0000000010001a38       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010001a38                recursive_mutex_init
  .text.critical_section_init
-                0x00000000100012bc       0x20 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x00000000100012bc                critical_section_init
+                0x0000000010001a54       0x20 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010001a54                critical_section_init
  .text.ph_merge_nodes
-                0x00000000100012dc       0x5c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001a74       0x5c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x0000000010001338       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001338                ph_post_alloc_init
+                0x0000000010001ad0       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001ad0                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010001374       0x90 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001374                ph_merge_two_pass
+                0x0000000010001b0c       0x90 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001b0c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x0000000010001404       0xf8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001b9c       0xf8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x00000000100014fc       0xfc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100014fc                ph_remove_head
+                0x0000000010001c94       0xfc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001c94                ph_remove_head
  .text.ph_remove_and_free_node
-                0x00000000100015f8       0x7c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100015f8                ph_remove_and_free_node
+                0x0000000010001d90       0x7c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001d90                ph_remove_and_free_node
  .text.runtime_init
-                0x0000000010001674      0x100 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001674                runtime_init
- .text._sbrk    0x0000000010001774       0x34 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001774                _sbrk
- .text.exit     0x00000000100017a8        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017a8                exit
- .text.panic    0x00000000100017ac       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017ac                panic
+                0x0000000010001e0c      0x100 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001e0c                runtime_init
+ .text._sbrk    0x0000000010001f0c       0x34 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001f0c                _sbrk
+ .text.exit     0x0000000010001f40        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001f40                exit
+ .text.panic    0x0000000010001f44       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001f44                panic
  .text.hard_assertion_failure
-                0x00000000100017dc        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017dc                hard_assertion_failure
+                0x0000000010001f74        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001f74                hard_assertion_failure
  .text.clocks_init
-                0x00000000100017e8      0x2b0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100017e8                clocks_init
+                0x0000000010001f80      0x2b0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001f80                clocks_init
  .text.clock_get_hz
-                0x0000000010001a98        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001a98                clock_get_hz
+                0x0000000010002230        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010002230                clock_get_hz
  .text.irq_set_enabled
-                0x0000000010001aa4       0x24 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001aa4                irq_set_enabled
+                0x000000001000223c       0x24 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000223c                irq_set_enabled
  .text.irq_set_pending
-                0x0000000010001ac8       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001ac8                irq_set_pending
+                0x0000000010002260       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010002260                irq_set_pending
  .text.irq_get_vtable_handler
-                0x0000000010001ad8       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001ad8                irq_get_vtable_handler
+                0x0000000010002270       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010002270                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010001ae8       0x54 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001ae8                irq_set_exclusive_handler
+                0x0000000010002280       0x54 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010002280                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x0000000010001b3c      0x1bc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001b3c                irq_remove_handler
+                0x00000000100022d4      0x1bc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100022d4                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010001cf8       0xb4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001cf8                irq_add_tail_to_free_list
+                0x0000000010002490       0xb4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010002490                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010001dac       0x38 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001dac                irq_init_priorities
+                0x0000000010002544       0x38 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010002544                irq_init_priorities
  .text.pll_init
-                0x0000000010001de4       0xa0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001de4                pll_init
+                0x000000001000257c       0xa0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x000000001000257c                pll_init
  .text.watchdog_start_tick
-                0x0000000010001e84       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001e84                watchdog_start_tick
+                0x000000001000261c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x000000001000261c                watchdog_start_tick
  .text.watchdog_reboot
-                0x0000000010001e94       0xa0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001e94                watchdog_reboot
+                0x000000001000262c       0xa0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x000000001000262c                watchdog_reboot
  .text.xosc_init
-                0x0000000010001f34       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010001f34                xosc_init
+                0x00000000100026cc       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00000000100026cc                xosc_init
  .text._out_null
-                0x0000000010001f5c        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100026f4        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x0000000010001f60       0x90 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100026f8       0x90 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x0000000010001ff0      0x1c0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002788      0x1c0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x00000000100021b0       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002948       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x00000000100021c0       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x00000000100021d0      0x454 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x0000000010002624      0x3d0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002958       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x0000000010002968      0x454 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000010002dbc      0x3d0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x00000000100029f4      0xb70 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000318c      0xb70 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x0000000010003564       0x20 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010003564                vfctprintf
+                0x0000000010003cfc       0x20 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003cfc                vfctprintf
  .text.weak_raw_vprintf
-                0x0000000010003584       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010003584                weak_raw_vprintf
- .text          0x00000000100035b4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010003d1c       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003d1c                weak_raw_vprintf
+ .text          0x0000000010003d4c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x00000000100035c4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100035c4                rom_func_lookup
+                0x0000000010003d5c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003d5c                rom_func_lookup
  .text.rom_data_lookup
-                0x00000000100035d4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100035d4                rom_data_lookup
+                0x0000000010003d6c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003d6c                rom_data_lookup
  .text.rom_funcs_lookup
-                0x00000000100035e4       0x44 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100035e4                rom_funcs_lookup
+                0x0000000010003d7c       0x44 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003d7c                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x0000000010003628       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003628                __wrap___aeabi_idivmod
-                0x0000000010003628                divmod_s32s32
-                0x0000000010003628                div_s32s32
-                0x0000000010003628                __wrap___aeabi_idiv
-                0x0000000010003630                divmod_s32s32_unsafe
-                0x000000001000365c                divmod_s32s32_savestate
+                0x0000000010003dc0       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003dc0                __wrap___aeabi_idivmod
+                0x0000000010003dc0                divmod_s32s32
+                0x0000000010003dc0                div_s32s32
+                0x0000000010003dc0                __wrap___aeabi_idiv
+                0x0000000010003dc8                divmod_s32s32_unsafe
+                0x0000000010003df4                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000010003678       0x4c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003678                __wrap___aeabi_uidiv
-                0x0000000010003678                __wrap___aeabi_uidivmod
-                0x0000000010003678                div_u32u32
-                0x0000000010003678                divmod_u32u32
-                0x0000000010003680                divmod_u32u32_unsafe
-                0x00000000100036a8                divmod_u32u32_savestate
+                0x0000000010003e10       0x4c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003e10                __wrap___aeabi_uidiv
+                0x0000000010003e10                __wrap___aeabi_uidivmod
+                0x0000000010003e10                div_u32u32
+                0x0000000010003e10                divmod_u32u32
+                0x0000000010003e18                divmod_u32u32_unsafe
+                0x0000000010003e40                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x00000000100036c4      0x430 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100036c4                div_s64s64
-                0x00000000100036c4                divmod_s64s64
-                0x00000000100036c4                __wrap___aeabi_ldivmod
-                0x00000000100036fc                div_u64u64
-                0x00000000100036fc                divmod_u64u64
-                0x00000000100036fc                __wrap___aeabi_uldivmod
-                0x000000001000370c                divmod_u64u64_savestate
-                0x0000000010003734                divmod_s64s64_unsafe
-                0x00000000100037bc                divmod_u64u64_unsafe
+                0x0000000010003e5c      0x430 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003e5c                div_s64s64
+                0x0000000010003e5c                divmod_s64s64
+                0x0000000010003e5c                __wrap___aeabi_ldivmod
+                0x0000000010003e94                div_u64u64
+                0x0000000010003e94                divmod_u64u64
+                0x0000000010003e94                __wrap___aeabi_uldivmod
+                0x0000000010003ea4                divmod_u64u64_savestate
+                0x0000000010003ecc                divmod_s64s64_unsafe
+                0x0000000010003f54                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x0000000010003af4       0x80 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003af4                __wrap___aeabi_drsub
-                0x0000000010003afa                __wrap___aeabi_dsub
-                0x0000000010003b0c                __wrap___aeabi_dadd
-                0x0000000010003b1e                __wrap___aeabi_ddiv
-                0x0000000010003b5a                __wrap___aeabi_dmul
+                0x000000001000428c       0x80 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000001000428c                __wrap___aeabi_drsub
+                0x0000000010004292                __wrap___aeabi_dsub
+                0x00000000100042a4                __wrap___aeabi_dadd
+                0x00000000100042b6                __wrap___aeabi_ddiv
+                0x00000000100042f2                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010003b74       0x6c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b74                __wrap___aeabi_cdrcmple
-                0x0000000010003b84                __wrap___aeabi_cdcmple
-                0x0000000010003b84                __wrap___aeabi_cdcmpeq
+                0x000000001000430c       0x6c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000001000430c                __wrap___aeabi_cdrcmple
+                0x000000001000431c                __wrap___aeabi_cdcmple
+                0x000000001000431c                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010003be0        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003be0                __wrap___aeabi_dcmplt
+                0x0000000010004378        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004378                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010003bec       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003bec                __wrap___aeabi_dcmple
+                0x0000000010004384       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004384                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x0000000010003bfc       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003bfc                __wrap___aeabi_dcmpge
+                0x0000000010004394       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004394                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x0000000010003c0c        0xa CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c0c                __wrap___aeabi_dcmpgt
+                0x00000000100043a4        0xa CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100043a4                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x0000000010003c16       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c16                __wrap___aeabi_dcmpun
- *fill*         0x0000000010003c32        0x2 
+                0x00000000100043ae       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100043ae                __wrap___aeabi_dcmpun
+ *fill*         0x00000000100043ca        0x2 
  .text.__wrap___aeabi_i2d
-                0x0000000010003c34       0x38 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c34                __wrap___aeabi_ui2d
-                0x0000000010003c3c                __wrap___aeabi_i2d
+                0x00000000100043cc       0x38 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100043cc                __wrap___aeabi_ui2d
+                0x00000000100043d4                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010003c6c       0x48 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c6c                __wrap___aeabi_d2iz
-                0x0000000010003c6c                double2int_z
+                0x0000000010004404       0x48 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004404                __wrap___aeabi_d2iz
+                0x0000000010004404                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010003cb4       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003cb4                double2uint
-                0x0000000010003cb4                __wrap___aeabi_d2uiz
+                0x000000001000444c       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000001000444c                double2uint
+                0x000000001000444c                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x0000000010003ccc       0x80 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010003ccc                __aeabi_double_init
+                0x0000000010004464       0x80 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010004464                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010003d4c       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003d4c                double_table_shim_on_use_helper
+                0x00000000100044e4       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100044e4                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x0000000010003d78       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003d78                drsub_shim
-                0x0000000010003d7e                dsub_shim
+                0x0000000010004510       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004510                drsub_shim
+                0x0000000010004516                dsub_shim
  .text.dadd_shim
-                0x0000000010003d88      0x15c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003d88                dadd_shim
+                0x0000000010004520      0x15c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004520                dadd_shim
  .text.dmul_shim
-                0x0000000010003ee4      0x15c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003ee4                dmul_shim
+                0x000000001000467c      0x15c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000001000467c                dmul_shim
  .text.ddiv_shim
-                0x0000000010004040      0x1b0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004040                ddiv_shim
+                0x00000000100047d8      0x1b0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100047d8                ddiv_shim
  .text.dcordic_rot_step
-                0x00000000100041f0       0x7c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100041f0                dcordic_rot_step
+                0x0000000010004988       0x7c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004988                dcordic_rot_step
  .text.double2uint_shim
-                0x000000001000426c        0xe CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x000000001000426c                double2uint_shim
-                0x000000001000426e                double2ufix_shim
- *fill*         0x000000001000427a        0x2 
+                0x0000000010004a04        0xe CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004a04                double2uint_shim
+                0x0000000010004a06                double2ufix_shim
+ *fill*         0x0000000010004a12        0x2 
  .text.double2uint64_shim
-                0x000000001000427c       0x6c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x000000001000427c                double2uint64_shim
-                0x000000001000427e                double2ufix64_shim
-                0x0000000010004298                d2fix_a
+                0x0000000010004a14       0x6c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004a14                double2uint64_shim
+                0x0000000010004a16                double2ufix64_shim
+                0x0000000010004a30                d2fix_a
  .text.dunpacks
-                0x00000000100042e8       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100042e8                dunpacks
+                0x0000000010004a80       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004a80                dunpacks
  .text.__aeabi_lmul
-                0x0000000010004324       0x32 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010004324                __wrap___aeabi_lmul
- *fill*         0x0000000010004356        0x2 
+                0x0000000010004abc       0x32 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010004abc                __wrap___aeabi_lmul
+ *fill*         0x0000000010004aee        0x2 
  .text.__aeabi_float_init
-                0x0000000010004358       0x64 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010004358                __aeabi_float_init
+                0x0000000010004af0       0x64 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010004af0                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x00000000100043bc       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x00000000100043bc                float_table_shim_on_use_helper
+                0x0000000010004b54       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004b54                float_table_shim_on_use_helper
  .text.__wrap_malloc
-                0x00000000100043e8       0x24 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                0x00000000100043e8                __wrap_malloc
- .text          0x000000001000440c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x000000001000440c                __aeabi_mem_init
- .text.memset   0x000000001000441c        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x000000001000441c                __wrap_memset
- .text.memcpy   0x0000000010004428        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010004428                __wrap___aeabi_memcpy
-                0x0000000010004428                __wrap_memcpy
+                0x0000000010004b80       0x24 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000010004b80                __wrap_malloc
+ .text          0x0000000010004ba4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004ba4                __aeabi_mem_init
+ .text.memset   0x0000000010004bb4        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004bb4                __wrap_memset
+ .text.memcpy   0x0000000010004bc0        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004bc0                __wrap___aeabi_memcpy
+                0x0000000010004bc0                __wrap_memcpy
  .text.stdio_out_chars_crlf.part.0
-                0x0000000010004434       0x98 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004bcc       0x98 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x00000000100044cc       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004c64       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x0000000010004544       0xb0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004544                __wrap_putchar
+                0x0000000010004cdc       0xb0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004cdc                __wrap_putchar
  .text.__wrap_puts
-                0x00000000100045f4      0x138 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100045f4                __wrap_puts
+                0x0000000010004d8c      0x138 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004d8c                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x000000001000472c       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001000472c                stdio_set_driver_enabled
+                0x0000000010004ec4       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004ec4                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x0000000010004768       0xec CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004768                __wrap_vprintf
+                0x0000000010004f00       0xec CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004f00                __wrap_vprintf
  .text.__wrap_printf
-                0x0000000010004854       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004854                __wrap_printf
+                0x0000000010004fec       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004fec                __wrap_printf
  .text.stdio_init_all
-                0x000000001000486c        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001000486c                stdio_init_all
+                0x0000000010005004        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010005004                stdio_init_all
  .text.__wrap_getchar
-                0x0000000010004878       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004878                __wrap_getchar
+                0x0000000010005010       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010005010                __wrap_getchar
  .text.stdio_uart_out_chars
-                0x00000000100048f0       0x4c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010005088       0x4c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x000000001000493c       0x38 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x000000001000493c                stdio_uart_in_chars
+                0x00000000100050d4       0x38 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000100050d4                stdio_uart_in_chars
  .text.stdio_uart_init
-                0x0000000010004974       0x48 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010004974                stdio_uart_init
+                0x000000001000510c       0x48 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000001000510c                stdio_uart_init
  .text.resetd_init
-                0x00000000100049bc        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010005154        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x00000000100049c0        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010005158        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x00000000100049cc       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010005164       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x00000000100049f4        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000518c        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x00000000100049f8       0x64 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010005190       0x64 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x0000000010004a5c        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004a5c                usbd_app_driver_get_cb
+                0x00000000100051f4        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100051f4                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x0000000010004a68       0x34 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004a68                tud_cdc_line_coding_cb
+                0x0000000010005200       0x34 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010005200                tud_cdc_line_coding_cb
  .text.stdio_usb_in_chars
-                0x0000000010004a9c       0x68 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004a9c                stdio_usb_in_chars
+                0x0000000010005234       0x68 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010005234                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x0000000010004b04       0xe8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000000001000529c       0xe8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x0000000010004bec       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010005384       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x0000000010004bfc       0x24 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010005394       0x24 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_init
-                0x0000000010004c20       0x90 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004c20                stdio_usb_init
+                0x00000000100053b8       0x90 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100053b8                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x0000000010004cb0        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004cb0                tud_descriptor_device_cb
+                0x0000000010005448        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010005448                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x0000000010004cb8        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004cb8                tud_descriptor_configuration_cb
+                0x0000000010005450        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010005450                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x0000000010004cc0       0x70 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004cc0                tud_descriptor_string_cb
+                0x0000000010005458       0x70 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010005458                tud_descriptor_string_cb
  .text.dcd_rp2040_irq
-                0x0000000010004d30      0x148 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100054c8      0x148 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.dcd_int_enable
-                0x0000000010004e78        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004e78                dcd_int_enable
+                0x0000000010005610        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005610                dcd_int_enable
  .text.dcd_set_address
-                0x0000000010004e84       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004e84                dcd_set_address
+                0x000000001000561c       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000561c                dcd_set_address
  .text.dcd_connect
-                0x0000000010004eac       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004eac                dcd_connect
+                0x0000000010005644       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005644                dcd_connect
  .text.dcd_init
-                0x0000000010004ebc       0x98 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004ebc                dcd_init
+                0x0000000010005654       0x98 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005654                dcd_init
  .text.dcd_edpt0_status_complete
-                0x0000000010004f54       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004f54                dcd_edpt0_status_complete
+                0x00000000100056ec       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100056ec                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x0000000010004f84      0x134 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004f84                dcd_edpt_open
+                0x000000001000571c      0x134 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000571c                dcd_edpt_open
  .text.dcd_edpt_xfer
-                0x00000000100050b8       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100050b8                dcd_edpt_xfer
+                0x0000000010005850       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005850                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x00000000100050e0       0x48 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100050e0                dcd_edpt_stall
+                0x0000000010005878       0x48 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005878                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x0000000010005128       0x44 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005128                dcd_edpt_clear_stall
+                0x00000000100058c0       0x44 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100058c0                dcd_edpt_clear_stall
  .text._hw_endpoint_buffer_control_update32.part.0.isra.0
-                0x000000001000516c       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010005904       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .text.rp2040_usb_init
-                0x0000000010005188       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010005188                rp2040_usb_init
+                0x0000000010005920       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010005920                rp2040_usb_init
  .text.hw_endpoint_reset_transfer
-                0x00000000100051d8        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x00000000100051d8                hw_endpoint_reset_transfer
+                0x0000000010005970        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010005970                hw_endpoint_reset_transfer
  .text._hw_endpoint_buffer_control_update32
-                0x00000000100051e4       0x44 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x00000000100051e4                _hw_endpoint_buffer_control_update32
+                0x000000001000597c       0x44 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000001000597c                _hw_endpoint_buffer_control_update32
  .text._hw_endpoint_xfer_continue
-                0x0000000010005228      0x100 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010005228                _hw_endpoint_xfer_continue
+                0x00000000100059c0      0x100 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000000100059c0                _hw_endpoint_xfer_continue
  .text._hw_endpoint_xfer
-                0x0000000010005328       0xac CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010005328                _hw_endpoint_xfer
+                0x0000000010005ac0       0xac CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010005ac0                _hw_endpoint_xfer
  .text.tud_mounted
-                0x00000000100053d4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100053d4                tud_mounted
+                0x0000000010005b6c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005b6c                tud_mounted
  .text.tud_suspended
-                0x00000000100053e4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100053e4                tud_suspended
+                0x0000000010005b7c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005b7c                tud_suspended
  .text.tud_inited
-                0x00000000100053f4        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100053f4                tud_inited
+                0x0000000010005b8c        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005b8c                tud_inited
  .text.tud_init
-                0x0000000010005400       0xd8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005400                tud_init
+                0x0000000010005b98       0xd8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005b98                tud_init
  .text.tud_task
-                0x00000000100054d8      0x830 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100054d8                tud_task
+                0x0000000010005c70      0x830 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005c70                tud_task
  .text.dcd_event_bus_signal
-                0x0000000010005d08       0xe8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005d08                dcd_event_bus_signal
+                0x00000000100064a0       0xe8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100064a0                dcd_event_bus_signal
  .text.dcd_event_bus_reset
-                0x0000000010005df0       0x54 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005df0                dcd_event_bus_reset
+                0x0000000010006588       0x54 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006588                dcd_event_bus_reset
  .text.dcd_event_setup_received
-                0x0000000010005e44       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005e44                dcd_event_setup_received
+                0x00000000100065dc       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100065dc                dcd_event_setup_received
  .text.dcd_event_xfer_complete
-                0x0000000010005e94       0x68 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005e94                dcd_event_xfer_complete
+                0x000000001000662c       0x68 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000662c                dcd_event_xfer_complete
  .text.usbd_open_edpt_pair
-                0x0000000010005efc       0xcc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005efc                usbd_open_edpt_pair
+                0x0000000010006694       0xcc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006694                usbd_open_edpt_pair
  .text.usbd_edpt_open
-                0x0000000010005fc8       0xa0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005fc8                usbd_edpt_open
+                0x0000000010006760       0xa0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006760                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x0000000010006068       0x64 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010006068                usbd_edpt_claim
+                0x0000000010006800       0x64 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006800                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x00000000100060cc       0x4c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100060cc                usbd_edpt_release
+                0x0000000010006864       0x4c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006864                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x0000000010006118       0x48 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010006118                usbd_edpt_xfer
+                0x00000000100068b0       0x48 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100068b0                usbd_edpt_xfer
  .text.tud_control_status
-                0x0000000010006160       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006160                tud_control_status
+                0x00000000100068f8       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100068f8                tud_control_status
  .text.tud_control_xfer
-                0x000000001000618c       0xac CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x000000001000618c                tud_control_xfer
+                0x0000000010006924       0xac CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010006924                tud_control_xfer
  .text.usbd_control_reset
-                0x0000000010006238       0x14 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006238                usbd_control_reset
+                0x00000000100069d0       0x14 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100069d0                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x000000001000624c        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x000000001000624c                usbd_control_set_complete_callback
+                0x00000000100069e4        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100069e4                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x0000000010006258       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006258                usbd_control_set_request
+                0x00000000100069f0       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100069f0                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x0000000010006274       0xf4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006274                usbd_control_xfer_cb
+                0x0000000010006a0c       0xf4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010006a0c                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x0000000010006368       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006368                tud_cdc_n_connected
+                0x0000000010006b00       0x30 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006b00                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x0000000010006398       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006398                tud_cdc_n_available
+                0x0000000010006b30       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006b30                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x00000000100063b0       0x70 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100063b0                tud_cdc_n_read
+                0x0000000010006b48       0x70 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006b48                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x0000000010006420       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006420                tud_cdc_n_write_flush
+                0x0000000010006bb8       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006bb8                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x0000000010006498       0x34 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006498                tud_cdc_n_write
+                0x0000000010006c30       0x34 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006c30                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x00000000100064cc       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100064cc                tud_cdc_n_write_available
+                0x0000000010006c64       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006c64                tud_cdc_n_write_available
  .text.cdcd_init
-                0x00000000100064e4       0x7c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100064e4                cdcd_init
+                0x0000000010006c7c       0x7c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006c7c                cdcd_init
  .text.cdcd_reset
-                0x0000000010006560       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006560                cdcd_reset
+                0x0000000010006cf8       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006cf8                cdcd_reset
  .text.cdcd_open
-                0x000000001000658c       0xec CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x000000001000658c                cdcd_open
+                0x0000000010006d24       0xec CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006d24                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x0000000010006678       0xe0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006678                cdcd_control_xfer_cb
+                0x0000000010006e10       0xe0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006e10                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x0000000010006758      0x148 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006758                cdcd_xfer_cb
+                0x0000000010006ef0      0x148 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006ef0                cdcd_xfer_cb
  .text.tusb_init
-                0x00000000100068a0        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100068a0                tusb_init
+                0x0000000010007038        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010007038                tusb_init
  .text.tusb_inited
-                0x00000000100068ac        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100068ac                tusb_inited
+                0x0000000010007044        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010007044                tusb_inited
  .text.tu_fifo_config
-                0x00000000100068b4       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100068b4                tu_fifo_config
+                0x000000001000704c       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000704c                tu_fifo_config
  .text.tu_fifo_count
-                0x000000001000692c       0x20 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000692c                tu_fifo_count
+                0x00000000100070c4       0x20 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100070c4                tu_fifo_count
  .text.tu_fifo_empty
-                0x000000001000694c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000694c                tu_fifo_empty
+                0x00000000100070e4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100070e4                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x000000001000695c       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000695c                tu_fifo_remaining
+                0x00000000100070f4       0x1c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100070f4                tu_fifo_remaining
  .text.tu_fifo_read
-                0x0000000010006978       0x9c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006978                tu_fifo_read
+                0x0000000010007110       0x9c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010007110                tu_fifo_read
  .text.tu_fifo_read_n
-                0x0000000010006a14       0xfc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006a14                tu_fifo_read_n
+                0x00000000100071ac       0xfc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100071ac                tu_fifo_read_n
  .text.tu_fifo_write
-                0x0000000010006b10       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006b10                tu_fifo_write
+                0x00000000100072a8       0x78 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100072a8                tu_fifo_write
  .text.tu_fifo_write_n
-                0x0000000010006b88      0x10c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006b88                tu_fifo_write_n
+                0x0000000010007320      0x10c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010007320                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x0000000010006c94       0x4c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006c94                tu_fifo_clear
+                0x000000001000742c       0x4c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000742c                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x0000000010006ce0       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006ce0                tu_fifo_set_overwritable
+                0x0000000010007478       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010007478                tu_fifo_set_overwritable
  .text.startup._retrieve_unique_id_on_boot
-                0x0000000010006d1c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00000000100074b4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x0000000010006d2c      0x1a8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000010006d2c                pico_get_unique_board_id_string
+                0x00000000100074c4      0x1a8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00000000100074c4                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x0000000010006ed4       0x40 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x0000000010006ed4                flash_get_unique_id
- .text.atexit   0x0000000010006f14       0x10 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
-                0x0000000010006f14                atexit
+                0x000000001000766c       0x40 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x000000001000766c                flash_get_unique_id
+ .text.atexit   0x00000000100076ac       0x10 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
+                0x00000000100076ac                atexit
  .text.__libc_fini_array
-                0x0000000010006f24       0x28 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fini.o)
-                0x0000000010006f24                __libc_fini_array
- .text.malloc   0x0000000010006f4c       0x14 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-malloc.o)
-                0x0000000010006f4c                malloc
+                0x00000000100076bc       0x28 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fini.o)
+                0x00000000100076bc                __libc_fini_array
+ .text.malloc   0x00000000100076e4       0x14 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-malloc.o)
+                0x00000000100076e4                malloc
  .text._malloc_r
-                0x0000000010006f60      0x598 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000010006f60                _malloc_r
+                0x00000000100076f8      0x598 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
+                0x00000000100076f8                _malloc_r
  .text.__malloc_lock
-                0x00000000100074f8       0x10 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
-                0x00000000100074f8                __malloc_lock
+                0x0000000010007c90       0x10 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
+                0x0000000010007c90                __malloc_lock
  .text.__malloc_unlock
-                0x0000000010007508       0x10 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
-                0x0000000010007508                __malloc_unlock
- .text._sbrk_r  0x0000000010007518       0x24 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sbrkr.o)
-                0x0000000010007518                _sbrk_r
- .text.strlen   0x000000001000753c       0x5c /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x000000001000753c                strlen
+                0x0000000010007ca0       0x10 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
+                0x0000000010007ca0                __malloc_unlock
+ .text._sbrk_r  0x0000000010007cb0       0x24 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sbrkr.o)
+                0x0000000010007cb0                _sbrk_r
+ .text.strlen   0x0000000010007cd4       0x5c /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000010007cd4                strlen
  .text.__register_exitproc
-                0x0000000010007598       0xb0 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-__atexit.o)
-                0x0000000010007598                __register_exitproc
+                0x0000000010007d30       0xb0 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-__atexit.o)
+                0x0000000010007d30                __register_exitproc
  .text.startup.register_fini
-                0x0000000010007648       0x18 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-__call_atexit.o)
+                0x0000000010007de0       0x18 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-__call_atexit.o)
  .text._malloc_trim_r
-                0x0000000010007660       0x9c /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
-                0x0000000010007660                _malloc_trim_r
- .text._free_r  0x00000000100076fc      0x1dc /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
-                0x00000000100076fc                _free_r
+                0x0000000010007df8       0x9c /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
+                0x0000000010007df8                _malloc_trim_r
+ .text._free_r  0x0000000010007e94      0x1dc /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
+                0x0000000010007e94                _free_r
  .text.__retarget_lock_acquire_recursive
-                0x00000000100078d8        0x4 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
-                0x00000000100078d8                __retarget_lock_acquire_recursive
+                0x0000000010008070        0x4 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
+                0x0000000010008070                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00000000100078dc        0x4 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
-                0x00000000100078dc                __retarget_lock_release_recursive
+                0x0000000010008074        0x4 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
+                0x0000000010008074                __retarget_lock_release_recursive
  *(.fini)
- .fini          0x00000000100078e0        0x4 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crti.o
-                0x00000000100078e0                _fini
- *fill*         0x00000000100078e4        0x4 
- .fini.__stub   0x00000000100078e8       0x70 linker stubs
+ .fini          0x0000000010008078        0x4 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crti.o
+                0x0000000010008078                _fini
+ *fill*         0x000000001000807c        0x4 
+ .fini.__stub   0x0000000010008080       0x70 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1893,150 +1897,155 @@ LOAD /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010007958        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010007958                . = ALIGN (0x4)
+ .eh_frame      0x00000000100080f0        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crtbegin.o
+                0x00000000100080f0                . = ALIGN (0x4)
 
-.glue_7         0x0000000010007958        0x0
- .glue_7        0x0000000010007958        0x0 linker stubs
+.glue_7         0x00000000100080f0        0x0
+ .glue_7        0x00000000100080f0        0x0 linker stubs
 
-.glue_7t        0x0000000010007958        0x0
- .glue_7t       0x0000000010007958        0x0 linker stubs
+.glue_7t        0x00000000100080f0        0x0
+ .glue_7t       0x00000000100080f0        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010007958        0x0
- .vfp11_veneer  0x0000000010007958        0x0 linker stubs
+.vfp11_veneer   0x00000000100080f0        0x0
+ .vfp11_veneer  0x00000000100080f0        0x0 linker stubs
 
-.v4_bx          0x0000000010007958        0x0
- .v4_bx         0x0000000010007958        0x0 linker stubs
+.v4_bx          0x00000000100080f0        0x0
+ .v4_bx         0x00000000100080f0        0x0 linker stubs
 
-.iplt           0x0000000010007958        0x0
- .iplt          0x0000000010007958        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x00000000100080f0        0x0
+ .iplt          0x00000000100080f0        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010007958      0x58c
+.rodata         0x00000000100080f0      0x78c
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
+ .rodata.shiftIn.str1.4
+                0x00000000100080f0       0x37 CMakeFiles/EEPROM.dir/EEPROM.c.obj
+ *fill*         0x0000000010008127        0x1 
  .rodata.main.str1.4
-                0x0000000010007958       0x31 CMakeFiles/EEPROM.dir/EEPROM.c.obj
- *fill*         0x0000000010007989        0x3 
+                0x0000000010008128      0x1aa CMakeFiles/EEPROM.dir/EEPROM.c.obj
+                                        0x1ae (size before relaxing)
+ *fill*         0x00000000100082d2        0x2 
+ .rodata.main   0x00000000100082d4       0x50 CMakeFiles/EEPROM.dir/EEPROM.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x000000001000798c       0x1b CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x00000000100079a7        0x1 
+                0x0000000010008324       0x1b CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x000000001000833f        0x1 
  .rodata.at_the_end_of_time
-                0x00000000100079a8        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100079a8                at_the_end_of_time
+                0x0000000010008340        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010008340                at_the_end_of_time
  .rodata.hardware_alarm_claim.str1.4
-                0x00000000100079b0       0x22 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x00000000100079d2        0x2 
+                0x0000000010008348       0x22 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x000000001000836a        0x2 
  .rodata.panic.str1.4
-                0x00000000100079d4       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000836c       0x10 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                          0x12 (size before relaxing)
  .rodata.hard_assertion_failure.str1.4
-                0x00000000100079e4        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000837c        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x00000000100079f0       0x15 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x0000000010007a05        0x3 
+                0x0000000010008388       0x15 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x000000001000839d        0x3 
  .rodata._vsnprintf
-                0x0000000010007a08      0x19c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x0000000010007ba4        0x4 
+                0x00000000100083a0      0x19c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x000000001000853c        0x4 
  .rodata.pow10.0
-                0x0000000010007ba8       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010008540       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__wrap_malloc.str1.4
-                0x0000000010007bf8        0xe CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- *fill*         0x0000000010007c06        0x2 
+                0x0000000010008590        0xe CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ *fill*         0x000000001000859e        0x2 
  .rodata.str1.4
-                0x0000000010007c08       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100085a0       0x3c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x0000000010007c44        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100085dc        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010007c50        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100085e8        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010007c5c        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100085f4        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x0000000010007c68        0x2 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x0000000010007c6a        0x2 
+                0x0000000010008600        0x2 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010008602        0x2 
  .rodata.str1.4
-                0x0000000010007c6c       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010008604       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_28.4
-                0x0000000010007c98        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010008630        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_29.5
-                0x0000000010007ca4        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000001000863c        0x8 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata._resetd_driver
-                0x0000000010007cac       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010008644       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x0000000010007cc4       0x13 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x0000000010007cd7        0x1 
+                0x000000001000865c       0x13 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x000000001000866f        0x1 
  .rodata.__bi_93.0
-                0x0000000010007cd8        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010008670        0xc CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x0000000010007ce4       0x2a CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000010007d0e        0x2 
+                0x000000001000867c       0x2a CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x00000000100086a6        0x2 
  .rodata.usbd_desc_cfg
-                0x0000000010007d10       0x54 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00000000100086a8       0x54 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x0000000010007d64       0x12 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000010007d76        0x2 
+                0x00000000100086fc       0x12 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000001000870e        0x2 
  .rodata.usbd_desc_str
-                0x0000000010007d78       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010008710       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.dcd_rp2040_irq.str1.4
-                0x0000000010007d90       0x14 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010008728       0x14 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.dcd_edpt_open.str1.4
-                0x0000000010007da4       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000873c       0x28 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata._hw_endpoint_buffer_control_update32.part.0.isra.0.str1.4
-                0x0000000010007dcc       0x1f CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010007deb        0x1 
+                0x0000000010008764       0x1f CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010008783        0x1 
  .rodata._hw_endpoint_xfer_continue.str1.4
-                0x0000000010007dec       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010008784       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .rodata.str1.4
-                0x0000000010007e3c       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000000100087d4       0x50 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
                                           0x7 (size before relaxing)
  .rodata.tud_task
-                0x0000000010007e3c       0x8c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100087d4       0x8c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x0000000010007ec8       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010008860       0x18 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._global_impure_ptr
-                0x0000000010007ee0        0x4 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
-                0x0000000010007ee0                _global_impure_ptr
-                0x0000000010007ee4                . = ALIGN (0x4)
+                0x0000000010008878        0x4 /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
+                0x0000000010008878                _global_impure_ptr
+                0x000000001000887c                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010007ee4                . = ALIGN (0x4)
+                0x000000001000887c                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010007ee4        0x0
- .rel.iplt      0x0000000010007ee4        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x000000001000887c        0x0
+ .rel.iplt      0x000000001000887c        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010007ee4                __exidx_start = .
+                0x000000001000887c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010007ee4                __exidx_end = .
-                0x0000000010007ee4                . = ALIGN (0x4)
-                0x0000000010007ee4                __binary_info_start = .
+                0x000000001000887c                __exidx_end = .
+                0x000000001000887c                . = ALIGN (0x4)
+                0x000000001000887c                __binary_info_start = .
 
-.binary_info    0x0000000010007ee4       0x28
+.binary_info    0x000000001000887c       0x28
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010007ee4        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000887c        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010007ee8        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008880        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010007eec        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008884        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010007ef0        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008888        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010007ef4        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000888c        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010007ef8        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008890        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010007efc        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008894        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr28
-                0x0000000010007f00        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010008898        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr29
-                0x0000000010007f04        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000001000889c        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr93
-                0x0000000010007f08        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010007f0c                __binary_info_end = .
-                0x0000000010007f0c                . = ALIGN (0x4)
-                0x0000000010007f0c                __etext = .
+                0x00000000100088a0        0x4 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100088a4                __binary_info_end = .
+                0x00000000100088a4                . = ALIGN (0x4)
+                0x00000000100088a4                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2045,7 +2054,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
                 0x0000000020000000       0xc0 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0xc78 load address 0x0000000010007f0c
+.data           0x00000000200000c0      0xc78 load address 0x00000000100088a4
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2167,27 +2176,27 @@ LOAD /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
                 0x0000000020000d38                . = ALIGN (0x4)
                 0x0000000020000d38                __data_end__ = .
 
-.igot.plt       0x0000000020000d38        0x0 load address 0x0000000010008b84
+.igot.plt       0x0000000020000d38        0x0 load address 0x000000001000951c
  .igot.plt      0x0000000020000d38        0x0 /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000d38        0x0 load address 0x0000000010008b84
+                0x0000000020000d38        0x0 load address 0x000000001000951c
                 0x0000000020000d38                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x0000000010008b84
+.scratch_x      0x0000000020040000        0x0 load address 0x000000001000951c
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x0000000010008b84                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x000000001000951c                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x0000000010008b84
+.scratch_y      0x0000000020041000        0x0 load address 0x000000001000951c
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x0000000010008b84                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x000000001000951c                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000d38      0xdac
                 0x0000000020000d38                . = ALIGN (0x4)
@@ -2317,8 +2326,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x0000000010008b84        0x0
-                0x0000000010008b84                __flash_binary_end = .
+.flash_end      0x000000001000951c        0x0
+                0x000000001000951c                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2395,7 +2404,7 @@ LOAD CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fi
 LOAD CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 LOAD CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-LOAD /tmp/ccVcYYqU.o
+LOAD /tmp/cc75jAoS.o
 LOAD /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/11.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2515,7 +2524,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000800       0x2c CMakeFiles/EEPROM.dir/home/erk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .ARM.attributes
-                0x000000000000082c       0x22 /tmp/ccVcYYqU.o
+                0x000000000000082c       0x22 /tmp/cc75jAoS.o
  .ARM.attributes
                 0x000000000000084e       0x1e /usr/lib/gcc/arm-none-eabi/11.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

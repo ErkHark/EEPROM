@@ -76,7 +76,7 @@ int main(){
 	char chr;
 	char mode;
 	int lp = 0;
-
+	int msg_disp = 0;
 	int done = 0;
 	uint16_t addrInput = 0;
 	uint16_t dataInput = 0;
@@ -96,13 +96,65 @@ while (true) { //main loop
 			strg[lp] = 0;	//terminate string
 			lp = 0;		//reset string buffer pointer
 
+			if (strg[0] == 'D'){
+				/* Make a debug menu to test each function individually. This will probably
+				only serve to further make the code look like spaghetti
+				*/
+
+				while(true){
+					//main debug loop
+
+					if (msg_disp == 0){
+						printf("Enter A debug command: \n");
+						printf("A: Address Shift Out\nD: Data Shift Out\nV: Data Shift In\n");
+						printf("R: Set Data Direction to Read Mode\nW: Set Data Direction to Write Mode\n");
+						printf("Q: Quit Debug Mode\n");
+						msg_disp = 1;
+					}
+
+					chr = getchar();
+
+					//should prolly replace with swtich case if I plan on expanding more
+					if(chr == 'A') {
+						addr_shiftOut(0xA501);
+						printf("Shifted out 0xA501 to Address Registers\n");
+					}
+
+					else if(chr == 'D') {
+						data_shiftOut(0xA501);
+						printf("Shifted out 0xA501 to Data Registers\n");
+					}
+
+					else if(chr == 'V'){
+						printf("%x\n", shiftIn(0));
+					}
+
+					else if(chr == 'R') {
+						setDataDir(1);
+						printf("Set Data Direction to Read\n");
+					}
+					else if (chr == 'W'){
+						setDataDir(0);
+						printf("Srt Data Direction to Write\n");
+					}
+					else if (chr == 'Q') {
+						msg_disp = 0;
+						break;
+					}
+			}
+		}
+
 			if (strg[0] == 'W') {
-				mode == 'W'; //set to write mode
+				printf("Set Mode: Write\n");
+				mode = 'W'; //set to write mode
+				done = 0;
 				break;
 			}
 
 			if (strg[0] == 'V'){
-				mode == 'V';//set to verify mode
+				printf("Set Mode: Verify\n");
+				mode = 'V';//set to verify mode
+				done = 0;
 				break;
 			}
 
@@ -125,21 +177,29 @@ while (true) { //main loop
 			chr = getchar(); //get following char
 		}
 
-		if(done == 1 && mode == 'W'){
-			writeBits_16(InData.addr, InData.data); //write data to addr on EEPROM
-			done = 0; //ready to take another set of inputs
-			printf("Wrote: %x to addr: %x\n", InData.data, InData.addr); //print for confirmation
+		if(done == 1){
+			if(mode == 'W'){
+				writeBits_16(InData.addr, InData.data); //write data to addr on EEPROM
+				done = 0; //ready to take another set of inputs
+				printf("Wrote: %x to addr: %x\n", InData.data, InData.addr); //print for confirmation
+			}
+
+			else if (mode == 'V'){
+				addr_shiftOut(InData.addr);
+				uint16_t eeprom_data = shiftIn(1);
+				printf("%x\n", eeprom_data);
+				if (eeprom_data != InData.data) printf("ERROR: Data in EEPROM is: %x\n", eeprom_data);
+				if(errors) printf("Found %d Errors", errors);
+				done = 0;
+			}
+
+			else printf("Mode Not Set!");
 		}
 
-		else(done == 1 && mode == 'V'){ //IN PROGRESS
-			uint16_t eeprom_data == shiftIn(InData.addr)
-			if (eeprom_data != InData.data) errors++;
-			if(errors) printf("Found %d Errors", errors);
-		}
+	}
 
-}
 
-		return 0;//should never get here
+	return 0;//should never get here
 
 }
 
@@ -218,6 +278,9 @@ uint16_t shiftIn(int debug){
 	uint16_t hexIn = 0x0000;
 	uint16_t hexData = 0x0000;
 	u_int16_t hexOut = 0;
+
+	//setDataDir(0);
+
 	gpio_put(CLK_EN, 1);
 	gpio_put(PARALLEL_LOAD, 0);
 	sleep_ms(HOLD_US);
